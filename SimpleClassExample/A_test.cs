@@ -12,5 +12,10 @@ namespace SimpleClassExample
         {
             
         }
+
+        public void DisplayStatus()
+        {
+            Console.WriteLine(@" TopLeft: ");
+        }
     }
 }
