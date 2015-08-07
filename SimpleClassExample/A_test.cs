@@ -17,5 +17,5 @@ namespace SimpleClassExample
         {
             Console.WriteLine(@" TopLeft: ");
         }
-    }A`
+    }
 }
