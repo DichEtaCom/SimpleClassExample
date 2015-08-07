@@ -1,0 +1,31 @@
+﻿<Window x:Class="SimpleClassExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="275">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        
+        <Button Grid.Row="0"  Content="Car" Height="23" VerticalAlignment="Center" Width="120" Margin="35,0,0,0" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button Grid.Row="1" Name="btnStaticDataandMembers" Content="StaticDataandMembers" Height="23"  Width="150" Margin="35,0,0,0" HorizontalAlignment="Left" Click="btnStaticDataandMembers_Click"/>
+        <Button Grid.Row="2" Name="btnRadio" Content="Radio" Height="23"  Width="150" Margin="35,0,0,0" HorizontalAlignment="Left" Click="btnRadio_Click"/>
+        <Button Grid.Row="3" Name="btnEmployeeApp" Content="EmployeeApp" Height="23"  Width="150" Margin="35,0,0,0" HorizontalAlignment="Left" Click="btnEmployeeApp_Click"/>
+        <Button Grid.Row="4" Name="btnGarage" Content="Garage" Height="23"  Width="150" Margin="35,0,0,0" HorizontalAlignment="Left" Click="btnGarage_Click"/>
+        <Button Grid.Row="5" Name="btnObjectInitializers" Content="ObjectInitializers" Height="23"  Width="150" Margin="35,0,0,0" HorizontalAlignment="Left" Click="btnObjectInitializers_Click"/>
+        <Button Grid.Row="6" Name="btnCarInheritance" Content="CarInheritance" Height="23"  Width="150" Margin="35,0,0,0" HorizontalAlignment="Left" Click="btnCarInheritance_Click"/>
+        <Button Grid.Row="7" Name="btnManagerSalesNumbers" Content="Manager SalesNumbers" Height="23"  Width="150" Margin="35,0,0,0" HorizontalAlignment="Left" Click="btnManagerSalesNumbers_Click"/>
+        <Button Grid.Row="8" Name="btnShapess" Content="Shapess" Height="23"  Width="150" Margin="35,0,0,0" HorizontalAlignment="Left" Click="btnShapess_Click"/>
+
+    </Grid>
+</Window>
