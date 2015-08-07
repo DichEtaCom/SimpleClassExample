@@ -6,16 +6,11 @@ using System.Threading.Tasks;
 
 namespace SimpleClassExample
 {
-    class A_test
+    class Aclass
     {
-        public A_test()
+        public Aclass()
         {
             
         }
-
-        public void DisplayStatus()
-        {
-            Console.WriteLine(@" TopLeft: ");
-        }
-    }A`
+    }
 }

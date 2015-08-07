@@ -53,6 +53,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Aclass.cs" />
     <Compile Include="A_test.cs" />
     <Compile Include="CarInheritance.cs" />
     <Compile Include="Circle.cs" />
